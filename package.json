@@ -4,14 +4,14 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "preview": "vite preview",
-    "typecheck": "tsc -b",
-    "sample": "tsx scripts/generate-sample.ts",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
-  }, 
+  "dev": "vite",
+  "build": "tsc -b && vite build",
+  "preview": "vite preview",
+  "typecheck": "tsc -b",
+  "sample": "tsx scripts/generate-sample.ts",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+}, 
   "dependencies": {
     "pdf-lib": "^1.17.1",
     "pdfjs-dist": "^4.10.38",
